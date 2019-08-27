@@ -1,6 +1,11 @@
 nav a {
   border-right: 1px solid black;
   padding: 0 10vw;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: black;
 }
 nav {
   display: flex;
@@ -17,5 +22,6 @@ body {
 }
 header {
   background-color: yellow;
+  padding: 5vh 0;
   margin: 5vh 0;
 }
