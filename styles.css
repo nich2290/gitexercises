@@ -1,0 +1,21 @@
+nav a {
+  border-right: 1px solid black;
+  padding: 0 10vw;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: palevioletred;
+  width: 80%;
+  margin: 0 auto;
+}
+nav a:last-child {
+  border-right: none;
+}
+body {
+  background-color: limegreen;
+}
+header {
+  background-color: yellow;
+  margin: 5vh 0;
+}
